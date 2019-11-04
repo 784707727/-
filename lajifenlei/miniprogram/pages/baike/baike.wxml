@@ -1,0 +1,48 @@
+<van-tabs active="{{ active }}">
+  <van-tab title="可回收物">
+      <image src="/images/khsw.jpeg" class="size"></image>
+      <view class="text">可回收物是指</view>
+      <view class="bg"></view>
+      <view class="text1">废纸张、废塑料、废玻璃制品、废金属、废织物等适宜回收、可循环利用的生活废弃物</view>
+     <view class="text ">可回收物投放要求</view>
+      <view class="bg text3"></view>
+      <view class="text1">1、轻投轻放</view>
+      <view class="text1">2、清洁干燥，避免污染</view>
+      <view class="text1">3、废纸尽量平整</view>
+      <view class="text1">4、立体包装物请清空内容物，清洁后压扁投放</view>
+       <view class="text1">5、有尖锐边角的，应包裹后投放</view>
+  </van-tab>
+  <van-tab title="有害垃圾">
+   <image src="/images/yhlj.jpeg" class="size"></image>
+      <view class="text">有害垃圾是指</view>
+      <view class="bg"></view>
+      <view class="text1">"对人体健康或自然环境造成直接或潜在的危害废弃物。</view>
+     <view class="text ">有害垃圾投放要求</view>
+      <view class="bg text3"></view>
+      <view class="text1">1、充电电池、纽扣电池、蓄电池投放时应注意轻放</view>
+      <view class="text1">2、油漆桶、杀虫剂如有残留请密闭后投放</view>
+      <view class="text1">3、荧光灯、节能灯易破损连带包装或包裹后投放</view>
+      <view class="text1">4、废药品及其包装一并投放</view>
+      </van-tab>
+  <van-tab title="湿垃圾">
+      <image src="/images/slj.jpeg" class="size"></image>
+      <view class="text">湿垃圾是指</view>
+      <view class="bg"></view>
+      <view class="text1">部分地区又称”厨余垃圾”，日常生活垃圾产生的容易腐烂的生物质废物。</view>
+     <view class="text ">湿垃圾投放要求</view>
+      <view class="bg text3"></view>
+      <view class="text1">1、餐厨垃圾应沥干水分后再投放，有包装物的应取出后分类投放</view>
+      <view class="text1">2、大块骨头和椰子壳，榴莲壳等不易生化降解，作为干垃圾进行投放</view>
+      <view class="text1">3、纯液体（如牛奶等），可直接倒入下水口</view>
+  </van-tab>
+  <van-tab title="干垃圾">
+      <image src="/images/glj.jpeg" class="size"></image>
+      <view class="text">干垃圾是指</view>
+      <view class="bg"></view>
+      <view class="text1">部分地区又称”其他垃圾”，除有害垃圾、可回收物、湿垃圾以外的生活废弃物。</view>
+     <view class="text ">干垃圾投放要求</view>
+      <view class="bg text3"></view>
+      <view class="text1">1、尽量沥干水分</view>
+      <view class="text1">2、难以辨别的生活垃圾应投入干垃圾容器内</view>
+  </van-tab>
+</van-tabs>

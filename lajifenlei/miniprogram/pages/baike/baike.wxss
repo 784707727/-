@@ -1,0 +1,23 @@
+/* pages/baike/baike.wxss */
+.size{width: 90%;
+      height:250rpx;
+      margin-left: 20px;
+      margin-top: 20px; 
+      border-radius: 10px;
+      box-shadow: 2px 3px 10px;
+      margin-bottom: 20px;}
+.text{margin-left: 20px;
+      font-size:40rpx;
+      z-index: 1 }
+.bg{width:240rpx;
+    height: 15rpx;
+    background: #66f;
+    margin-left: 20px;
+    margin-top: -20rpx;
+}
+.text1{margin-left:40rpx;
+       width:90%;
+       margin-top: 20rpx;
+       font-size: 30rpx;
+       line-height: 60rpx; }
+.text3{width:320rpx; }

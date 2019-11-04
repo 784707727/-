@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/baike/baike"
+    ],
+   
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "垃圾分类大全",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/shouye/shouye",
+      "text": "首页",
+      "iconPath": "images/nsesy.png",
+      "selectedIconPath": "images/sesy.png"
+    }
+    ,{
+      "pagePath": "pages/baike/baike",
+      "text": "分类百科",
+      "iconPath": "images/nobk .png",
+      "selectedIconPath": "images/bk.png"
+    }
+    ]
+  }
+}
